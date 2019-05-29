@@ -1,0 +1,213 @@
+.banner{
+    height: 2.26rem;
+    position: relative;
+    margin-top: .4rem;
+}
+.ban-pos{
+    width: 90%;
+    height: .3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    border: .02rem inset #EEEEEE;
+    border-radius:.05rem;
+    -webkit-border-radius:.05rem;
+    -moz-border-radius:.05rem;
+    -ms-border-radius:.05rem;
+    -o-border-radius:.05rem;
+    position: absolute;
+    bottom: .1rem;
+    left: 5%;
+    box-shadow: 10px 10px 20px  #E0DEDE,10px 10px 30px  #E0DEDE;
+}
+.ban-pos>a{
+    background-color: #FFFF;
+    padding: .05rem;
+    width: .25rem;
+    height: .25rem;
+    box-sizing: border-box;
+    background: url('../image/index/seach.jpg') center center no-repeat;
+    background-size: cover;
+    margin:0 .07rem;
+    
+}
+   
+.search{
+    flex: 7;
+    height: .3rem;
+    border: none;
+    outline: none;
+    font-size: .14rem;
+}
+.link-list{
+    width: 100%;
+    height: 1.1rem;
+    background: #FF8A00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.link-list li{
+    width: 25%;
+    padding: .05rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+.link-list a{
+    color: #FFFF;
+    font-size: .13rem;
+}
+.link-list li a i{
+   width: .56rem;
+   height: .56rem;
+   display: inline-block;
+   
+}
+.link-list>li:nth-child(1)>a>i{
+    background: url('../image/index/index_03.png') center center no-repeat;
+    background-size:100% 100%;
+
+}
+.link-list>li:nth-child(2)>a>i{
+    background: url('../image/index/index_05.png') center center no-repeat;
+    background-size:100% 100%;
+}
+.link-list>li:nth-child(3)>a>i{
+    background: url('../image/index/index_07.png') center center no-repeat;
+    background-size:100% 100%;
+   
+}
+.link-list>li:nth-child(4)>a>i{
+    background: url('../image/index/index_09.png') center center no-repeat;
+    background-size:100% 100%;
+ 
+}
+.link-list li a p{
+    color: white;
+    margin-top: .05rem;
+}
+.news{
+    height: 2.3rem;
+    background: #F5F5F5;
+    padding: .1rem 0;
+}
+.news-banner,.news-banner>img{
+    height: 2.3rem;
+}
+/* 热门标题部分 */
+.hot{
+    height: .6rem;
+    padding: .1rem;
+    box-sizing: border-box;
+    background: #FF8A00;
+    color: white;
+}
+.white{
+    color: white;
+    font-size: .2rem;
+}
+.hot p{
+    font-size: .12rem;
+}
+/* 热门 列表 部分 */
+.hot-list{
+    padding:0 .1rem;
+    box-sizing: border-box;
+}
+.hot-list li a{
+    display: flex; 
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: .15rem 0;
+    border-bottom:.01rem solid #FF8A00;
+    box-sizing: border-box;
+}
+ .hot-img, .hot-img>img{
+    width: .9rem;
+    height: .82rem;
+}
+
+.hot-info{
+    width: 1.93rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    /* align-items:  */
+}
+.hot-info h4{
+    font-size: .18rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.text-fl{
+    display: flex;
+    justify-content: space-between;
+    font-size: .14rem;
+}
+.text-fl span:last-child{
+    color: #FF8A00;
+}
+.text-col span{
+  background: #849AAE;
+  display: inline-block;
+  margin-right: .05rem;
+}
+.hot-list>li:last-child a{
+    border-bottom: none;
+}
+.link-tit{
+    overflow: hidden;
+    background: #CCC;
+}
+.link-tit div{
+    height: .5rem;
+    background: #FFFF;
+    margin-top: .1rem;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    border-bottom: .015rem solid #FF8A00;
+}
+.link-tit div a{
+    height: 100%;
+    text-align: center;
+    padding: .1rem 0;
+    font-size: .24rem;
+    width: 50%;
+    box-sizing: border-box;
+  
+    
+  
+}
+.active{
+    color: #FF8A00;
+    border-bottom: .02rem solid #FF8A00;
+}
+.link-all{
+    padding: .2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.link-all ul{
+    overflow: hidden;
+}
+.link-all ul li{
+    height: .3rem;
+    display: flex;
+    align-items: center;
+
+}
+.link-all ul li a{
+    font-size: .16rem;
+    color: #747373;
+}
+
+
+   
+    

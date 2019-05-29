@@ -1,0 +1,45 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+   
+  
+}
+
+.res-form{
+    font-size: 0;
+    padding: 0 .15rem;
+   
+   
+   
+   }
+   .use{
+    margin-top: .4rem;
+       text-align: center;
+       font-size: .16rem;
+       color: orange;
+       height: .4rem;
+       line-height: .4rem;
+   }
+.res-form p{
+    height: .5rem;
+    margin-top: .15rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+input{
+    font-size: .14rem;
+    width: 100%;
+  height: .4rem;
+ 
+}
+#resgiter{
+    background: orange;
+    color: white;
+    margin-top: .15rem;
+    border: none;
+    outline: none;
+}

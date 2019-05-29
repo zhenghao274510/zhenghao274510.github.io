@@ -1,0 +1,219 @@
+.swiper-container{
+    height: 1.87rem;
+    margin-top: .4rem;
+}
+.swiper-pagination{
+    width: 95%;
+    text-align: right;
+    font-size: .16rem;
+    color: white;
+}
+.show-info{
+    padding: .15rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  border-bottom: .01rem solid #cccccc;
+}
+.show-info div{
+  width: 2.7rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+   
+}
+.show-info div h3{
+    font-size: .18rem;
+}
+
+.show-price,.show-time,.show-text{
+  font-size: .14rem;
+  margin-top: .07rem;
+}
+.show-price span:nth-child(1){
+    color: red;
+    margin-right: .05rem;
+}
+.show-time {
+    color: #cccccc;
+}
+.show-text span{
+    background: skyblue;
+    display: inline-block;
+    margin-right: .04rem;
+}
+.show-tell{
+    width: .16rem;
+    height: .24rem;
+    background: url('../image/SecondHandList/phone.png') center center no-repeat;
+    background-size:100% 100%;
+    display: inline-block; 
+}
+.show-list{
+ overflow: hidden;
+    background: #cccccc;
+}
+.list-text{
+    padding: 0 0 0 .15rem;
+    box-sizing: border-box;
+    border-top: 1px solid #cccccc;
+    background: white;
+    margin-top: .1rem;
+}
+
+
+.list-text>p{
+    height: .4rem;
+    line-height: .4rem;
+    font-size: .14rem;
+    border-bottom: 1px solid #CCC;
+}
+.list-text>p span{
+    width: 50%;
+    display: inline-block;
+}
+.list-text>p:last-child{
+    text-align: center;
+   
+    border: none;
+}
+.list-text>p:last-child a{
+ color: #CCC;
+}
+.list-text>h4{
+    height: .4rem;
+    line-height: .4rem;
+  font-size: .2rem;
+  color: red;
+  border-bottom: 1px solid #cccccc;
+  
+}
+.back{
+    color: black !important;
+    }
+.house-info{
+    padding: .15rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+   
+    border-bottom: 1px solid #cccccc;
+}
+.house-info>p{
+    font-size: .12rem;
+    line-height: .2rem;
+    color: rgb(31, 28, 28);
+}
+.list-text ul li{
+
+    display: flex;
+    padding: .15rem 0 ;
+   
+
+ border-bottom: 1px solid #CCC;
+}
+.list-text ul li:last-child{
+    border: none;
+}
+#list_b>li{
+    display: block;
+}
+.house-in{
+    display: flex;
+}
+.house-list-img{
+  
+    width: .72rem;
+    height: .72rem;
+    margin-right: .1rem;
+}
+
+
+.house-list-text h4{
+    font-size: .18rem;
+
+}
+.house-list-text p{
+    font-size: .14rem;
+    
+}
+.house-list-text p span{
+
+ background: skyblue;
+ display: inline-block;
+ margin-right: .05rem;
+    
+}
+#map{
+    height: 2rem;
+   
+}
+.list-text>div{
+    padding: .15rem .15rem .15rem 0 ;
+    box-sizing: border-box;
+}
+.border-top{
+    border-top:.01rem solid #CCC !important; 
+}
+.house-recom{
+    height: .37rem;
+    line-height: .37rem;
+    background: #CCC;
+    font-size: .14rem;
+    text-indent: .1rem;
+    position: relative;
+    margin-top: .15rem;
+}
+.house-recom>i{
+    width: 0;
+    height: 0;
+    border-right:.07rem solid transparent;
+	border-left:.07rem solid transparent;
+    border-bottom:.07rem solid #CCC;
+    position: absolute;
+    top: -.07rem;
+    left: .1rem;
+}
+.advert-hand{
+    height: .5rem;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.advert-broker{
+    width: 2rem;
+    height: .4rem;
+   
+    text-align: center;
+    background: orange;
+    color: white;
+    font-size: .12rem;
+    padding: .1rem .15rem;
+   box-sizing: border-box;
+}
+.advert-broker>i{
+    width: .24rem;
+    height: .24rem;
+    background: url('../image/SecondHandList/user.png')center center no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: .15rem;
+    vertical-align: middle;
+   /* margin-top: .05rem; */
+}
+.advert-show{
+    color: rgb(94, 92, 92);
+    font-size: .12rem;
+}
+.advert-show::before{
+    content: "";
+    width: .2rem;
+    height: .2rem;
+    background: url('../image/SecondHandList/xin.png')center center no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: .05rem;
+    vertical-align: middle;
+}

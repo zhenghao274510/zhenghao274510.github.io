@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport"
+        content="width=device-width, invalueial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>找房无忧</title>
+    <link rel="stylesheet" href="../css/handhousedetails.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=mZPNSjVm8gnlm0OGS0GvELiIFeyG1gGv">
+    </script>
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/public.css">
+   
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav-logo"><a href=""><img src="../image/index/logo.jpg" alt=""></a></div>
+            <div class="nav-right"> <a href="../my/my.html" class="nav-my"></a> <span class="nav-app"></span></div>
+        </nav>
+    </header>
+    <!-- banner图 -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../image/SecondHandList/img.png" alt=""></div>
+            <div class="swiper-slide"><img src="../image/SecondHandList/img.png" alt=""></div>
+            <div class="swiper-slide"><img src="../image/SecondHandList/img.png" alt=""></div>
+            <div class="swiper-slide"><img src="../image/SecondHandList/img.png" alt=""></div>
+            <div class="swiper-slide"><img src="../image/SecondHandList/img.png" alt=""></div>
+
+        </div>
+        <!-- 分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="show-info">
+        <div>
+            <h3>天鹅湾小区精装两居，满五唯一，业主换房急售</h3>
+            <p class="show-price"><span>576</span>万元 (单价：46327元/平)</p>
+            <p class="show-time">挂牌时间2015年6月20日</p>
+            <p class="show-text"><span>学区房</span><span>独家</span><span>满五唯一</span></p>
+        </div>
+        <a href="" class="show-tell"></a>
+    </div>
+    <div class="show-list">
+        <div class="list-text">
+            <p><span>户型： 3室二厅</span><span>面积：100平</span></p>
+            <p><span>户型： 3室二厅</span><span>面积：100平</span></p>
+            <p><span>户型： 3室二厅</span><span>面积：100平</span></p>
+            <p><span>户型： 3室二厅</span><span>面积：100平</span></p>
+            <p><span>户型： 3室二厅</span><span>面积：100平</span></p>
+            <p><span>户型： 3室二厅</span><span>面积：100平</span></p>
+            <p>地铁：离西二旗地铁站50米</p>
+            <p>地铁：离西二旗地铁站50米</p>
+            <p>地铁：离西二旗地铁站50米</p>
+            <p> <a href="">更多房源信息</a></p>
+        </div>
+        <div class="list-text">
+            <h4>房源特色</h4>
+            <div class="house-info">
+                <p>小区在西三环外400米处，有多条公交线路经过此地，此外3公里内还有1号线西三环、西流湖等站经过此地，交通便利。项目周边有多所幼儿园及中小学，如中原区幼园、绿都城小学等，教育资源丰富。万达广场(中原店)、岗坡购物广场等商业购物中心分布在项目周边，可以满足日常购物娱乐生活。项目附近还有多所医疗机构，为健康保驾护航。总体来说，项目周边配套较为齐全，可以满足日常生活所需。
+                </p>
+            </div>
+            <p> <a href="">更多特色</a></p>
+        </div>
+        <div class="list-text">
+            <h4>户型分间</h4>
+            <ul id="evaluation">
+            </ul>
+        </div>
+        <div class="list-text">
+            <h4 class="back">对口学校</h4>
+            <p><span>户型： 3室二厅</span></p>
+            <p><span>户型： 3室二厅</span></p>
+            <p><span>户型： 3室二厅</span></p>
+            <p><span>户型： 3室二厅</span></p>
+            <p><span>户型： 3室二厅</span></p>
+            <p><span>户型： 3室二厅</span></p>
+            <p>地铁：离西二旗地铁站50米</p>
+            <p>地铁：离西二旗地铁站50米</p>
+            <p>地铁：离西二旗地铁站50米</p>
+            <p> <a href="">查看学校详情</a></p>
+
+        </div>
+        <div class="list-text">
+            <h4 class="back">位置及周边</h4>
+            <div>
+                <div id="map"></div>
+            </div>
+
+        </div>
+        <div class="list-text">
+            <h4 class="back">推荐房源</h4>
+            <ul id="list_b">
+                
+            </ul>
+
+            <p class="border-top"> <a href="">查看相似房源</a></p>
+        </div>
+    </div>
+    <!-- 底部链接 -->
+    <footer>
+        <h4><a href="">北京找房无忧</a> > <a href="../html/index.html" id="home">首页</a></h4>
+        <div class="foot-icon">
+            <a href="">
+                <div class="foot-iP">
+                    <p>iPhone</p>
+                    <p>客户端</p>
+                </div>
+            </a>
+            <a href="">
+                <div class="foot-and">
+                    <p>Android</p>
+                    <p>客户端</p>
+                </div>
+            </a></div>
+        <div class="foot-info">
+            <p>北京找房无忧房地产经纪公司</p>
+            <p>网络经营许可证京ICP备20160812号</p>
+        </div>
+    </footer>
+    <!-- 底部经纪人 -->
+    <div class="advert-hand">
+        <a href="" class="advert-broker"><i></i> 联系经纪人</a>
+        <span class="advert-show">关注</span>
+
+
+    </div>
+
+
+
+    <!-- <div class="ui-loading"><div class="ui-loading-mask"><i></i></div></div> -->
+
+</body>
+
+<script src="../js/bass.js"></script>
+<script src="../js/swiper.min.js"></script>
+
+<script src="../js/jquery-3.3.1.js"></script>
+
+<script src="../js/doT.min.js"></script>
+<script src="../js/public.js"></script>
+<script src="../js/handhousedetails.js"></script>
+<script id="evaluationtmpl" type="text/x-dot-template">
+    {{~dataEval:value:index }}
+   
+    <li>
+            
+            <div class="house-list-img"><img src=""  data-url={{= value.src }} alt="" class="imgs"></div>
+            <div class="house-list-text">
+                <h4>{{= value.h4 }} </h4>
+                <p>{{= value.p1 }} </p>
+              
+                <p>
+                    {{~value.p2:val:ind}}
+                    <span>{{=val}}</span>
+                    {{~}}
+                </p>
+               
+            </div>
+        </li>
+        {{~}}
+        
+
+    </script>
+<script id="evalualist_b" type="text/x-dot-template">
+    {{~datalist_b:value:index }}
+       
+        <li>
+                <div class="house-in">
+                <div class="house-list-img"><img src=""  data-url={{= value.src }} alt="" class="imgs"></div>
+                <div class="house-list-text">
+                    <h4>{{= value.h4 }} </h4>
+                    <p>{{= value.p1 }} </p>
+                  
+                    <p>
+                        {{~value.p2:val:ind}}
+                        <span>{{=val}}</span>
+                        {{~}}
+                    </p>
+                   
+                </div>
+            </div>
+                <div class="house-recom">
+                    <i></i>
+                    <p>推荐理由:同户型、通风好、采光好</p>
+                </div>
+            </li>
+          
+           
+            {{~}}
+            
+    
+        </script>
+<script>
+    var dataEval = [{
+            src: '../image/SecondHandList/img1.png',
+            h4: '当前格局',
+            p1: '分间信息:客厅25平米,南北通透',
+            p2: ['南北通透', '全明格局']
+        },
+        {
+            src: '../image/SecondHandList/img2.png',
+            h4: '当前格局',
+            p1: '分间信息:客厅25平米,南北通透',
+            p2: ['南北通透', '全明格局']
+        },
+    ]
+    var datalist_b = [{
+            src: '../image/SecondHandList/img1.png',
+            h4: '当前格局',
+            p1: '分间信息:客厅25平米,南北通透',
+            p2: ['南北通透', '全明格局']
+        },
+        {
+            src: '../image/SecondHandList/img2.png',
+            h4: '当前格局',
+            p1: '分间信息:客厅25平米,南北通透',
+            p2: ['南北通透', '全明格局']
+        },
+    ]
+
+    var evalText = doT.template($("#evaluationtmpl").text());
+    $("#evaluation").html(evalText(dataEval));
+    var evalText_b = doT.template($("#evalualist_b").text());
+    $("#list_b").html(evalText_b(datalist_b));
+</script>
+
+
+
+</html>

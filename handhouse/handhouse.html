@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <title>无忧找房</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/handhouse.css">
+    <link rel="shortcut icon" href="../image/index/logo.jpg">
+</head>
+
+<body>
+    <!-- toubu -->
+    <header>
+        <nav class="nav">
+            <div class="nav-logo"><a href=""><img src="../image/index/logo.jpg" alt=""></a></div>
+            <div class="nav-right"><a href="../my/my.html" class="nav-my"></a>  <span class="nav-app"></span></div>
+        </nav>
+    </header>
+    <section>
+        <div class="house-ser">
+            <div class="ban-pos"> <input class="search" type="text" placeholder="输入小区名或商圈名开始找房咯！"><a href=""></a></div>
+        </div>
+
+    </section>
+    <div class="nav-list">
+        <div class="nav-tit">
+            <span>区域<i class="down"></i></span><span>价格<i class="down"></i></span><span>房型 <i class="down"></i>
+            </span><span>更多 <i class="down"></i></span>
+        </div>
+        <!-- 子菜单隐藏部分开始 -->
+        <div class="nav-hide">
+            <div class="beat0">
+                <div class="beat-tit">
+                    <h3 class="white">区域</h3>
+                    <h3>地铁</h3>
+                </div>
+                <ul>
+                    <li><span>附近</span><span class="color">不限</span></li>
+                    <li><span>附近</span><span class="color">不限</span></li>
+                    <li><span>附近</span><span class="color">不限</span></li>
+                    <li><span>附近</span><span class="color">不限</span></li>
+                    <li><span>附近</span><span class="color">不限</span></li>
+                    <li><span>附近</span><span class="color">不限</span></li>
+                    <li><span>附近</span><span class="color">不限</span></li>
+                </ul>
+
+
+            </div>
+            <div class="beat1">
+                <ul>
+                    <li>不限</li>
+                    <li>100万以下</li>
+                    <li>100万-150万</li>
+                    <li>150万-200万以下</li>
+                    <li>200万-250万以下</li>
+                    <li>250万-300万以下</li>
+                    <li>自定义价格</li>
+                  
+                </ul>
+            </div>
+            <div class="beat2">
+                    <ul>
+                            <li>不限</li>
+                            <li>1室 <input type="checkbox"></li>
+                            <li>2室<input type="checkbox"></li>
+                            <li>3室<input type="checkbox"></li>
+                            <li>4室<input type="checkbox"></li>
+                            <li>5室<input type="checkbox"></li>
+                         
+                          
+                        </ul>
+                        <span>确定</span>
+            </div>
+            <div class="beat3 ">
+                <ul>
+                    <li>
+                        <h4>区域</h4>
+                        <div><span>南</span> <span>南北</span><span>东</span> 
+                            <span>西</span><span>北</span> </div>
+                    </li>
+                    <li>
+                            <h4>区域</h4>
+                            <div><span>南</span> <span>南北</span><span>东</span> 
+                                <span>西</span><span>北</span> </div>
+                        </li>
+                        <li>
+                                <h4>区域</h4>
+                                <div><span>南</span> <span>南北</span><span>东</span> 
+                                    <span>西</span><span>北</span> </div>
+                            </li>
+                            <li>
+                                    <h4>区域</h4>
+                                    <div><span>南</span> <span>南北</span><span>东</span> 
+                                        <span>西</span><span>北</span> </div>
+                                </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 子菜单隐藏部分结束 -->
+    </div>
+    <!-- mydate  star -->
+    <ul class="cont-list" id="mylist">
+    </ul>
+     <!-- mydate  end -->
+
+
+      <!-- myfooter  star -->
+      <footer>
+            <h4><a href="">北京找房无忧</a> > <a href="../html/index.html" id="home">首页</a></h4>
+            <div class="foot-icon">
+                <a href="">  <div class="foot-iP"><p>iPhone</p><p>客户端</p> </div></a> 
+                <a href=""><div class="foot-and"><p>Android</p><p>客户端</p></div></a></div>
+            <div class="foot-info">
+                <p>北京找房无忧房地产经纪公司</p>
+                <p>网络经营许可证京ICP备20160812号</p>
+            </div>
+           </footer>
+            <!-- myfooter  end -->
+           
+            <!-- my hide -->
+            <!-- <div class="ui-loading"><div class="ui-loading-mask"><i></i></div></div> -->
+                
+</body>
+
+
+
+
+
+
+<script src="../js/bass.js"></script>
+
+<script src="../js/zepto.min.js"></script>
+<script src="../js/zepto.touch.js"></script>
+
+<script src="../js/doT.min.js"></script>
+<script src="../js/handhouse.js"></script>
+<script src="../js/public.js"></script>
+<!-- 模板 -->
+<script id="arraystmpl" type="text/x-dot-template">
+    {{~datelist:value:index}}
+    <li>
+            <a href="../handhousedetails/handhousedetails.html">
+            <div class="cont-img">
+                <img src="" data-url={{=value.src}} alt="" class="imgs">
+            </div>
+            <div class="cont-info">
+                <h3>{{=value.h3}}</h3>
+                <p>{{=value.p1}}</p>
+                <p class="cont-s">
+                        {{~value.p2:val:ind}}
+                    <span>{{=val}}</span>
+                    {{~}}
+                </p>
+                <p class="cont-p">{{=value.p3}}</p>
+            </div>
+        </a>
+        </li>
+    {{~}}
+    </script>
+    <script>
+    // 数据列表部分
+var  datelist=[
+    {src:'../image/SecondHandList/img1.png',h3:'西便门大街2室1厅89平',p1:'南北 高楼层/6层',p2:['签约价格:13244元/平','1105万'],p3:'签约日期:2015年11月10日'},
+    {src:'../image/SecondHandList/img2.png',h3:'金桥国际 1室1厅 63平',p1:'南北 高楼层/6层',p2:['签约价格:13244元/平','905万'],p3:'签约日期:2015年11月10日'},
+    {src:'../image/SecondHandList/img3.png',h3:'花涧溪二期 2室2厅 平90',p1:'南北 高楼层/6层',p2:['签约价格:13224元/平','1322万'],p3:'签约日期:2015年11月10日'},
+    {src:'../image/SecondHandList/img4.png',h3:'西便门大街2室1厅89平',p1:'南北 高楼层/6层',p2:['签约价格:13244元/平','1105万'],p3:'签约日期:2015年11月10日'},
+    {src:'../image/SecondHandList/img5.png',h3:'西便门大街2室1厅89平',p1:'南北 高楼层/6层',p2:['签约价格:13244元/平','1105万'],p3:'签约日期:2015年11月10日'},
+    {src:'../image/SecondHandList/img6.png',h3:'西便门大街2室1厅89平',p1:'南北 高楼层/6层',p2:['签约价格:13244元/平','1105万'],p3:'签约日期:2015年11月10日'},
+    {src:'../image/SecondHandList/img7.png',h3:'西便门大街2室1厅89平',p1:'南北 高楼层/6层',p2:['签约价格:13244元/平','1105万'],p3:'签约日期:2015年11月10日'},
+]
+var arrText = doT.template($("#arraystmpl").text());
+$("#mylist").html(arrText(datelist));
+    
+    </script>
+</html>
